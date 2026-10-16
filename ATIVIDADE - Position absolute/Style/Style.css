@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    position:absolute;
+    width: 80%;
+    height: 20%;
+    top: 5%;
+    left: 10%;
+    background-color: red;
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 25%;
+    left: 10%;
+    background-color: cyan;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+
+#section1 {
+    position: absolute;
+    width: 30%;
+    height: 40%;
+    top: 35%;
+    left: 10%;
+    background-color: green;
+    border-left: 3px solid black;
+}
+
+#section2 {
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    top: 35%;
+    left: 40%;
+    background-color: yellow;
+    border-right: 3px solid black;
+}
+
+footer {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    top: 75%;
+    left: 10%;
+    background-color: gray;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
