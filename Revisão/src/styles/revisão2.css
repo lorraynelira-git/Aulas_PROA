@@ -1,0 +1,21 @@
+h1{ background-color: #c8e4e9;
+    opacity: 0.9;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #ff3300, #03ffdd);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ec9e0c;
+    background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
