@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    
+ <h1>Agendamento de Consulta</h1>
+
+    <form action="" method="get">
+      <fieldset>
+        <legend>Ficha</legend>
+
+        <label for="nome">Nome do Paciente:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+        <br><br>
+
+        <label for="data">Data da Consulta:</label>
+        <input type="date" id="data" name="data">
+        <br><br>
+
+        <label for="especialidade">Especialidade Médica:</label>
+        <select id="especialidade" name="especialidade">
+            <option value="clinico-geral">Clínico Geral</option>
+            <option value="cardiologia">Cardiologia</option>
+            <option value="dermatologia">Dermatologia</option>
+            <option value="pediatria">Pediatria</option>
+            <option value="ginecologia">Ginecologia</option>
+        </select>
+        <br><br>
+
+        <label for="plano">Plano de Saúde:</label>
+        <select id="plano" name="plano">
+            <option value="particular">Particular</option>
+            <option value="unimed">Unimed</option>
+            <option value="amil">Amil</option>
+            <option value="bradesco">Bradesco Saúde</option>
+        </select>
+        <br><br>
+
+        <p>Primeira consulta na clínica?</p>
+
+        <input type="radio" id="sim" name="primeira-consulta" value="sim">
+        <label for="sim">Sim</label>
+
+        <input type="radio" id="nao" name="primeira-consulta" value="nao">
+        <label for="nao">Não</label>
+
+        <br><br>
+
+        <p>Necessidade de Acessibilidade no local:</p>
+
+        <input type="checkbox" id="rampa" name="acessibilidade" value="rampa">
+        <label for="rampa">Rampa de acesso</label>
+        <br>
+
+        <input type="checkbox" id="libras" name="acessibilidade" value="libras">
+        <label for="libras">Intérprete de Libras</label>
+        <br>
+
+        <input type="checkbox" id="cao-guia" name="acessibilidade" value="cao-guia">
+        <label for="cao-guia">Espaço para Cão Guia</label>
+
+        <br><br>
+
+        <label for="guia">Guia Médica ou Encaminhamento:</label>
+        <input type="file" id="guia" name="guia">
+
+        <br><br>
+
+        <button type="submit">Confirmar Agendamento</button>
+
+    </form>
+
+
+</body>
+</html>
