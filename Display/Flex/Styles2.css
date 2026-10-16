@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*Tem align-items: flex-start, flex-end, center, stretch */
+    align-items: start;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.elemento{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+.elemento3{
+    position: relative;
+    width: 200px;
+    /* height: 200px; */
+    text-align: center;
+}
+
+.elemento4{
+    position: relative;
+    /* width: 200px; */
+    /* height: 200px; */
+    text-align: center;
+}
+
+#div1{
+    background-color: red;
+}
+
+#div2{
+    background-color: green;
+}
+
+#div3{
+    background-color: blue;
+}

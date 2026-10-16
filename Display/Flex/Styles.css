@@ -1,0 +1,94 @@
+/* Elemento pai */
+.container{
+    display: flex;
+    /* Por padrão esse atributo é ativado com o display flex, ficando um ao lado do outro */
+    /* Tem flex-direction: row, column, row-reverse, column-reverse */
+    flex-direction: row;
+    /* Tem justify-content: flex-start, flex-end, center, space-between, space-around */
+    justify-content: start;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.container6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    /* Gap - cria uma espaço entre os elementos com o valor que você desejar */
+    gap: 20px;
+}
+
+.elemento{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#div1{
+    background-color: red;
+}
+
+#div2{
+    background-color: green;
+}
+
+#div3{
+    background-color: blue;
+}

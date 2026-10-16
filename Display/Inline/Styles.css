@@ -1,0 +1,25 @@
+a{
+    Display: inline;
+    border: 1px solid red;
+}
+
+p{
+    Display: inline;
+    border: 1px solid red;  
+}
+
+#block{
+    Display: block;
+    border: 1px solid red;
+}
+
+#block2{
+    Display: block;
+    border: 1px solid green;
+    width: 200px;
+}
+
+#inline{
+    Display: inline;
+    border: 1px solid blue;
+}

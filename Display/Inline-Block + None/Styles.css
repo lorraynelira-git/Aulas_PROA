@@ -1,0 +1,35 @@
+.elemento{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+.elemento2{
+    display: inline;
+    width: 200px;
+    height: 200px;
+}
+
+.elemento3{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.elemento4{
+    display: none;
+    width: 200px;
+    height: 200px;
+}
+
+#div1{
+    background-color: red;
+}
+
+#div2{
+    background-color: green;
+}
+
+#div3{
+    background-color: blue;
+}   
