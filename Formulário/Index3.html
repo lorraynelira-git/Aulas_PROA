@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="-pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Completo</title>
+</head>
+<body>
+
+    <!-- O atributo action está relacionado ao back-end, o arquivo entre aspas pode fazer uma ação com os dados do formulário. -->
+     <!-- Metódo get = Pega os dados/Vai tudo pro URL-->
+      <!-- Metódo post = Armazena os dados no corpo do navegador/Não aparece na URL, pra ver vc acessa o F12 -->
+     <form action="" method="get">
+
+    <!-- A tag <fieldset> ativa por ctrl + shift + P, ativando o Emmet Wrap with abbreviation -->
+        <!-- Formando uma caixinha ao redor do formulário -->
+<fieldset>
+
+    <!-- Essa tag atribui um titulo na moldura do fieldset -->
+    <legend>Formulário de Dados Pessoais</legend>
+    
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome"placeholder="Nome completo" required/>
+            <br></br>
+    
+    
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="idade" min="0" max="100" placeholder="Idade" required/>
+            <br></br>
+    
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="@gmail" required/>
+            <br></br>
+    
+    
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" minlength="4" maxlength="8" placeholder="Sua senha" required/>
+            <br></br>
+    
+            <!-- Tipo check -->
+            <label for="check">Aceita os termos?</label>
+            <!-- Caixinha para marcar quanta opções quiser -->
+             <!-- O atributo "checked" marca automaticamente a caixinha-->
+            <input type="checkbox" name="check" id="check" required>
+           <br></br>
+
+            <label for="conta 1">Conta Pessoal</label>
+            <input type="radio" name="conta" id="conta 1"/> Sim
+        
+            
+            <label for="conta 2"></label>
+            <input type="radio" name="conta" id="conta 2"/> Não
+
+            <label for="conta 2"></label>
+            <input type="radio" name="conta" id="conta 2"/> Talvez
+    
+            <p>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Limpar"/>
+            </p>
+    
+</fieldset>
+    </form>
+
+</body>
+</html>

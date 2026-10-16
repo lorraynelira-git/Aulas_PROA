@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form action="" method="get">
+        <fieldset>
+
+            <legend>Opções</legend>
+
+            <label for="estados">Estados:</label>
+
+            <!-- A tag select cria um menu suspenso ou uma lista de opções para o usuário escolher em um formulário -->
+            <select name="estados" id="estado">
+
+                <!-- A tag option define uma opção dentro do menu suspenso -->
+                <option value="">--Escolha--</option>
+
+                <!-- A tag optgroup define um grupo de opções dentro do menu suspenso -->
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PA">Paraíba</option>
+                    <option value="SE">Sergipe</option>
+                </optgroup>
+                
+            </select>
+            <br><br>
+
+            <!-- A tag input com type="color" cria um campo para seleção de cor -->
+            <label for="tex">Cores:</label>
+            <input type="color" name="cor" id="tex">
+            <br><br>
+
+            <!-- A tag input com type="date" cria um campo para seleção de data -->
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data">  
+            <br><br> 
+
+            <!-- A tag input com type="time" cria um campo para seleção de hora -->
+            <label for="hora">Hora:</label>
+            <input type="time" name="hora" id="hora">
+            <br><br>
+
+            <!-- A tag textarea cria uma área de texto para o usuário digitar várias linhas -->
+            <label for="text">Mensagem:</label> <br>
+            <textarea name="text" id="text" rows="4" cols="50"></textarea>
+            
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - 2</title>
+</head>
+<body>
+    <form>
+
+        <!-- Tipo texto -->
+        <label for="nome">Nome</label>
+
+        <!-- Placeholder = Adiciona um texto claro dentro da caixa -->
+         <!-- Required = Torna o item obrigatório -->
+        <input type="text" name="nome" id="nome"placeholder="Nome completo" required/>
+        <br></br>
+
+        <!-- Tipo número -->
+        <label for="idade">Idade</label>
+
+        <!-- min e max = Esses atributos definem o número minimo e máximo que pode ser digitado -->
+        <input type="number" name="idade" id="idade" min="0" max="100" placeholder="Idade" required/>
+        
+        <!-- Atributo step = Pula passo a passo dependendo o número informado -->
+         <!-- Value = já deixa um valor definido dentro da caixa -->
+        <br></br>
+
+        <!-- Tipo email -->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="@gmail" required/>
+        <br></br>
+
+        <!-- Tipo senha -->
+        <label for="senha">Senha</label>
+
+        <!-- minlenght e maxlenght = Definem o minimo e máximo de caracteres da senha -->
+        <input type="password" name="senha" id="senha" minlength="4" maxlength="8" placeholder="Sua senha" required/>
+        <br></br>
+
+        <p>
+            <input type="submit" value="Enviar"/>
+            <input type="reset" value="Limpar"/>
+        </p>
+        
+    </form>
+    
+</body>
+</html>
