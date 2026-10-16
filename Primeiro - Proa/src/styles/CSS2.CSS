@@ -1,0 +1,25 @@
+body {
+    background-color: #569ad1;
+}
+
+h1 {
+    color: #024564;
+    font-family: Arial, sans-serif;
+    background-color: #eceef0;
+    text-align: center;
+}
+
+p {
+    color: #0a2879;
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 30px;
+    text-shadow: 1px 1px 2px #080808;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: #024564;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 3px;
+    text-decoration-skip-ink: 4px;
+}

@@ -1,0 +1,49 @@
+
+div{
+    /* Estilo para todas as divs */
+
+    /* Tamanho */
+    width: 200px;
+    
+    /* Altura */
+    height: 200px;
+
+    /* Margem */
+    margin: 10px;
+
+    /* Cor de fundo */
+    background-color: red;
+
+    /* Margem - topo, direita, fundo, esquerda */
+    margin: 50px 20px 50px 20px;
+
+    /* Tem como especificar cada lado separadamente */
+    /* Margin - top = 50px; right = 20px; bottom = 50px; left = 20px */
+}
+
+#caixa1{
+    /* Estilo para a div com id "caixa1" */
+
+    /* Cor de fundo */
+    background-color: red;
+
+    /* Tamanho */
+    width: 200px;
+    height: 200px;
+
+    }
+
+
+#caixa2{
+    /* Estilo para a div com id "caixa2" */
+
+    /* Cor de fundo */
+    background-color: yellow;
+
+    /* Tamanho */
+    width: 100px;
+    height: 100px;
+
+    margin: 0px;
+    
+    }
