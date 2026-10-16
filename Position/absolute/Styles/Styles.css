@@ -1,0 +1,21 @@
+#caixa1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* position: static; deixa os elementos na posição normal do fluxo do documento html */
+    /* position: relative; deixa os elementos na posição normal do fluxo do documento html, mas permite que sejam reposicionados com top, bottom, left e right */
+    /* position: absolute; remove o elemento do fluxo do documento html e permite que seja posicionado de forma absoluta */
+    /* position: fixed; remove o elemento do fluxo do documento html e permite que seja posicionado de forma absoluta em relação à janela do navegador */
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    /* A posição absoluta é determinada por top, left, right e bottom */
+    /* A posição absolute fica por cima de quem estiver abaixo sem a position */
+   
+    /* z-index:; controla a ordem de sobreposição dos elementos posicionados */
+    /* Essa tag é usada para controlar a ordem de sobreposição dos elementos posicionados no absolute */
+    /* É por ordem de camadas, o maior número sobrepõe o menor */
+    /* 3= camada mais alta, 2= camada intermediária, 1 = camada superior a 0 = camada inferior */
+    }
