@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas completa</title>
+
+    <style>
+    
+    body{
+        Background-color: #f5e6e6;
+        
+        }
+
+        table{      
+            border: 1px solid #000;
+             /* Esse atributo define o espaçamento entre as bordas das células */
+            /* Ele centraliza a tabela */
+            margin: 20px auto;
+            /* O atributo width define a largura da tabela, ele pode ser marcado por porcentualmente ou em pixels */
+            width: 50%;
+        }
+
+    table,
+        td{
+            border: 1px solid #000;
+            /* Essa tag define o espaçamento entre as bordas das células */
+            padding: 10px;
+        }
+
+        th{
+            border: 1px solid #000;
+            /* O atributo border-collapse define como as bordas das células são tratadas */
+       
+            background-color: #7a6971;
+            color: #fff;
+            width: 20px;
+            height: 20px;
+        }
+
+        /* Forma mais fácil de aplicar estilos é usando o thead */
+        .titulo{
+            background-color: #ac768c;
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        tbody{
+            background-color: #e6cfcf;
+        }
+
+        caption{
+            font-size: 25px;
+            font-weight: bold;
+            color: #383434;
+            border: 1px dashed #000;
+            margin: 20px auto;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Estrutura completa da tabela -->
+<table>
+
+    <!-- Título da tabela -->
+    <caption>Tabela de Serviços</caption>
+
+    <!-- Cabeçalho da tabela -->
+    <thead>
+        <tr>
+        <!-- Alt + shift + p/ baixo = Copia a linha inteira selecionada -->
+            <th class="titulo">Mês</th>
+            <th class="titulo">Serviço</th>
+            <th class="titulo">Valor</th>
+        </tr>
+    </thead>
+
+    <!-- Corpo da tabela -->
+    <tbody>
+        <tr>
+            <td>Janeiro</td>
+            <td>Serviço 1</td>
+            <td>R$ 100,00</td>
+        </tr>
+        <tr>
+            <!-- O atributo rowspan define o número de linhas que a célula irá ocupar -->
+            <td rowspan="2">Fevereiro</td>
+            <td>Serviço 2</td>
+            <td>R$ 200,00</td>      
+        </tr>
+        <tr>
+            <!-- Essa parte não tem Mês, por causa do rowspan -->
+            <td>Serviço 3</td>
+            <td>R$ 300,00</td>
+        </tr>
+        <tr>
+            <td>Março</td>
+            <td>Serviço 4</td>
+            <td>R$ 400,00</td>  
+        </tr>   
+        <tr>
+            <td>Abril</td>
+            <td>Serviço 5</td>
+            <td>R$ 500,00</td>
+        </tr>  
+    </tbody>
+
+    <!-- Rodapé da tabela -->
+    <tfoot>
+        <th colspan="2">Total</th>
+        <th>R$ 1.500,00</th>
+    </tfoot>
+
+</table>
+    
+</body>
+</html>

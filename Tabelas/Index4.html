@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas completa/Alt</title>
+
+    <style>
+    
+    body{
+        Background-color: #f5e6e6;
+        
+        }
+
+        table{  
+            border-collapse: collapse;    
+            border: 1px solid #000;
+             /* Essa tag define o espaçamento entre as bordas das células */
+            /* Ela centraliza a tabela */
+            margin: 20px auto;
+            width: 50%;
+            font-size: 25px;
+        }
+
+        td{
+            border: 1px solid #000;
+            /* Essa tag define o espaçamento entre as bordas das células */
+            border-collapse: collapse;
+            /* Aumenta a altura das células de dados */
+            height: 60px;
+            /* O atributo padding define o espaçamento interno das células */
+            /* padding: 10px; */
+
+            /* Esse atributo define o alinhamento vertical das células, que pode ser top, middle ou bottom */
+            vertical-align: top;
+            text-align: center;
+        }
+
+        th{
+            border: 1px solid #000;
+            /* O atributo border-collapse define como as bordas das células são tratadas */
+            border-collapse: collapse;
+            background-color: #7a6971;
+            color: #fff;
+            /* O atributo padding define o espaçamento interno das células */
+            padding: 10px;
+        }
+
+        /* Forma mais fácil de aplicar estilos é usando o thead */
+        thead th{
+            background-color: #ac768c;
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        tbody{
+            background-color: #e6cfcf;
+        }
+
+        caption{
+            font-size: 45px;
+            font-weight: bold;
+            color: #383434;
+            border: 1px dashed #000;
+            margin: 20px auto;
+        }
+
+        .titulo{
+            background-color: #daccd1;
+            color: #020202;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Estrutura completa da tabela -->
+<table>
+
+    <!-- Título da tabela -->
+    <caption>Tabela de Serviços</caption>
+
+    <!-- Cabeçalho da tabela -->
+    <thead>
+        <tr>
+        <!-- Alt + shift + p/ baixo = Copia a linha inteira selecionada -->
+            <th>Mês</th>
+            <th>Serviço</th>
+            <th>Valor</th>
+        </tr>
+    </thead>
+
+    <!-- Corpo da tabela -->
+    <tbody>
+        <tr>
+            <td>Janeiro</td>
+            <td>Serviço 1</td>
+            <td>R$ 100,00</td>
+        </tr>
+        <tr class="titulo" >
+            <!-- O atributo rowspan define o número de linhas que a célula irá ocupar -->
+            <td rowspan="2">Fevereiro</td>
+            <td>Serviço 2</td>
+            <td>R$ 200,00</td>      
+        </tr>
+        <tr class="titulo" >
+            <!-- Essa parte não tem Mês, por causa do rowspan -->
+            <td>Serviço 3</td>
+            <td>R$ 300,00</td>
+        </tr>
+        <tr>
+            <td>Março</td>
+            <td>Serviço 4</td>
+            <td>R$ 400,00</td>  
+        </tr>   
+        <tr class="titulo" >
+            <td>Abril</td>
+            <td>Serviço 5</td>
+            <td>R$ 500,00</td>
+        </tr>  
+    </tbody>
+
+    <!-- Rodapé da tabela -->
+    <tfoot>
+        <th colspan="2">Total</th>
+        <th>R$ 1.500,00</th>
+    </tfoot>
+
+</table>
+    
+</body>
+</html>
