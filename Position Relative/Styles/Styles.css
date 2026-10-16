@@ -1,0 +1,65 @@
+main{
+    width: 80%;
+    height: auto;
+    margin: 2% auto;
+    border: 2px solid #000;
+}
+
+#Camada1{
+    position: relative;
+    width: 30%;
+    height: 150px;
+    background-color:blue;
+    color: #fff;
+    text-align: center;
+    float:left
+}
+
+#Camada2{
+    position: relative;
+    width: 70%;
+    height: 150px;
+    background-color:red;
+    color: #000;
+    text-align: center;
+    /* o atributo float faz com que os elementos flutuem para o lado */
+    float:left
+}
+
+#Camada3{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color:greenyellow;
+    color: #000;
+    text-align: center;
+    float:left
+}
+
+#camadaFundo {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-color: red;
+    float: left;
+}
+
+#camada4 {
+    position: relative;
+    width: 98%;
+    height: 300px;
+    background-color: yellow;
+    color: #000;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#camada5 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    float: left;
+}
