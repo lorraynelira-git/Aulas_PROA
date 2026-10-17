@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG - Lorrayne Lira</title>
+
+    <link rel="stylesheet" href="Styles.css">
+
+</head>
+<body>
+    
+    <!-- Tag header = Cabeçalho -->
+    <header id="cabecalho">
+        <h1>Blog da Annyls</h1>
+
+        <nav>
+            <!-- Link 1 -->
+            <ul id="nav_p">
+                <li> 
+                <a href="#">Inicio</a>
+                </li>
+
+                <!-- Link 2 -->
+                <li> 
+                <a href="#">Artigos</a>
+                </li>
+
+                <!-- Link 3 -->
+                <li> 
+                <a href="#">Sobre nós</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Tag main = agrupa o coteúdo principal da página -->
+    <main>
+
+        <!-- Tag section = agrupa elementos do mesmo tema -->
+        <section id="sec1">
+            <h2>Últimas postagens</h2>
+
+            <!-- Tag article = conteúdo independente  -->
+             <article class="art">
+                <!-- header dentro do article -->
+                <header> 
+                    <h3>Como criar um site de forma simples?</h3>
+                    <p>Publicado em 
+                        <time datetime="2026-10-02">02 de outubro de 2026</time>
+                    </p>
+                </header>
+
+                <p>Hoje aprendemos a como criar um site usando HTMl e CSS.</p>
+
+                    <a href="#">Saiba mais</a>
+
+             </article>
+             <article class="art">
+                
+                <header> 
+                    <h3>Aprenda a mágica do CSS</h3>
+                    <p>Publicado em 
+                        <time datetime="2026-10-01">01 de outubro de 2026</time>
+                    </p>
+                </header>
+
+                <p>Aprenderemos a estilizar usando o CSS.</p>
+
+                    <a href="#">Saiba mais</a>
+             </article>
+        </section>
+    </main>
+
+    <!-- Conteúdo lateral que tem relação com o conteúdo principal -->
+    <aside>
+        <br></br>
+        <section id="sec2">
+            <h3>Sobre a autora do BLOG</h3>
+        <br>
+
+        <figure>
+            <img src="Image icon.jpg" alt="Lorrayne Lira - Icon"></img>
+            <figcaption>Annyls's space</figcaption>
+        </figure>
+
+        <div id="cont_details">
+            <!-- Detalhes - Perguntas e respostas -->
+            <details>
+                <summary>Quem é?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestiae molestias error ea nobis ipsa suscipit unde, amet id! Consectetur numquam fugiat exercitationem quos? Ex totam nostrum quos cupiditate itaque!</p>
+            </details>
+
+            <details>
+                <summary>Qual é sua história?</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestiae molestias error ea nobis ipsa suscipit unde, amet id! Consectetur numquam fugiat exercitationem quos? Ex totam nostrum quos cupiditate itaque!</p>
+            </details>
+
+        </div>
+        </section>
+    </aside>
+
+    <footer>&copy Annyls BLOG. Todos os Direitos Reservados</footer>
+</body>
+</html>
