@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "cabecalho cabecalho"
+    "navegacao navegacao"
+    "principal principal"
+    "rodape rodape";
+  text-align: center;
+}
+
+/* Areas */
+
+header {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  background-color: red;
+  grid-area: cabecalho;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: cyan;
+  grid-area: navegacao;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  grid-area: principal;
+  display: flex;
+}
+
+#sec1 {
+  position: relative;
+  width: 30%;
+  height: 400px;
+  background-color: green;
+}
+
+#sec2 {
+  position: relative;
+  width: 70%;
+  height: 400px;
+  background-color: yellow;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: gray;
+  grid-area: rodape;
+}
