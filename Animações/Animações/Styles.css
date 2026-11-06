@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 2% auto;
+
+  /* Nome da animação */
+  animation-name: transformar;
+
+  /* Duração da animação - s ou ms */
+  animation-duration: 4s;
+
+  /* Curva de aceleração da animação */
+  animation-timing-function: ease-in-out;
+
+  /* Quantas vezes vai ocorrer a animação */
+  /* infinite - faz infinitamente */
+  animation-iteration-count: 1;
+
+  /* Estágio final ou inicial do elemento de acordo com a animação */
+  /* backwards - voltar ao estágio incial */
+  /* forwards - ficar com o estágio final */
+  animation-fill-mode: forwards;
+
+  /* Altera a direção da animação */
+  /* normal - o que vem por padrão */
+  /* reverse - vai do final pro começo */
+  /* alternate - alternando entre começo e fim da animação */
+  animation-direction: alternate;
+
+  /* Controla o fluxo da animação */
+  /* running - animação rodando */
+  /* paused - pausa na animação */
+  animation-play-state: running;
+}
+
+.item:hover {
+  animation-play-state: paused;
+}
+
+@keyframes transformar {
+  0% {
+  }
+
+  50% {
+    background-color: yellow;
+    transform: scale(1.2) rotate(0);
+  }
+
+  75% {
+    background-color: black;
+    transform: scale(1.2) rotate(360deg);
+    border-radius: 0;
+  }
+
+  100% {
+    background-color: green;
+    border-radius: 50%;
+  }
+}
+
+.item2 {
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  animation-name: anm;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes anm {
+  from {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    height: 200px;
+    background-color: red;
+  }
+}

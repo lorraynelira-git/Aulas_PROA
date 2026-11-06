@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 600px;
+  height: auto;
+  padding: 2rem;
+  margin: 1% auto;
+  background-color: gray;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  /* Propriedades de transição */
+  /* Quais estilos serão alterados */
+  transition-property: transform, background-color;
+
+  /* Duração da transição */
+  transition-duration: 4s;
+
+  /* Curva de aceleração */
+  transition-timing-function: ease;
+
+  /* Delay para iniciar a transição */
+  transition-delay: 0s;
+
+  /* Shorthand - tudo em uma propriedade única */
+  /* transition: all 2s ease-in-out 2s; */
+}
+
+.container:hover .item {
+  transform: translate(400px, 200px) scale(1.5) rotate(45deg);
+  background-color: green;
+}
